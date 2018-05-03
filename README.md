@@ -5,6 +5,13 @@
 * bash for shell
 * weechat for IRC
 
+## theme
+* GTK - Adwaita
+* Shell - MyAdwaita
+* Icons - Papirus
+* Cursor - Adwaita
+* Fonts - Roboto
+
 ## vim
 * Put the `.vimrc` into your home folder - feel free to tweak it!
 
