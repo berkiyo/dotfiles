@@ -1,0 +1,6 @@
+@import url("resource:///org/gnome/theme/gnome-shell.css");
+
+stage {
+    font-family: Roboto;
+    font-size: 14.5px;
+}
