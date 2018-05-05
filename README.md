@@ -1,6 +1,6 @@
 # dotfiles
 
-## terminal
+## software
 * gnome-terminal / tilix
 * bash for shell
 * weechat for IRC
