@@ -1,5 +1,7 @@
 # dotfiles
 
+![alt text](na)
+
 ## software
 * gnome-terminal / tilix
 * bash for shell
