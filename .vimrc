@@ -22,10 +22,3 @@ syntax on
 set showmatch
 set number
 set comments=sl:/*,mb:\ *,elx:\ */
-
-" key bindings
-nmap <F2> :w<CR>
-imap <F2> <ESC>:w<CR>i
-map <F4> :e %:p:s,.h$,.X123X,:s,.cpp$,.h,:s,.X123X$,.cpp,<CR>
-map <F5> :!ctags -R –c++-kinds=+p –fields=+iaS –extra=+q .<CR>
-map <F12> <C-]>
