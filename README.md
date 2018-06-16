@@ -1,12 +1,9 @@
 # dotfiles
 
-![alt text]()
+![alt text](https://raw.githubusercontent.com/bkdogan/dotfiles/master/screenshot.png)
 
 ## theme
-I mainly use Adwaita with the Papirus icons. My choice of fonts are Roboto (Interface) and Hack (Monospace). 
-
-## Roboto-Adwaita
-This is a GNOME shell theme which just replaces the Cantarell default font with Roboto. You can change the font by editing the `gnome-shell.css` file.
+I mainly use Arc with the Papirus icons. My choice of fonts are Roboto (Interface) and Hack (Monospace). 
 
 ## software
 * Put the `.vimrc` and `.bashrc` files in your home folder. 
