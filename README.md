@@ -1,6 +1,6 @@
 # dotfiles
 
-![alt text](https://raw.githubusercontent.com/bkdogan/dotfiles/master/screenshot.png)
+![alt text]()
 
 ## theme
 I mainly use Adwaita with the Papirus icons. My choice of fonts are Roboto (Interface) and Hack (Monospace). 
