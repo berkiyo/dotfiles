@@ -1,8 +1,10 @@
 [Appearance]
 AntiAliasFonts=true
+BoldIntense=true
 ColorScheme=ArcDark
-Font=Hack,11,-1,0,50,0,0,0,0,0,Regular
+Font=Hack,11,-1,5,50,0,0,0,0,0,Regular
 LineSpacing=2
+UseFontLineChararacters=false
 
 [General]
 Environment=TERM=xterm-256color,COLORTERM=truecolor
