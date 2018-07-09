@@ -1,7 +1,5 @@
 # dotfiles
 
-![alt text]()
-
 ## theme
 I mainly use Arc with the Papirus icons. My choice of fonts are Roboto (Interface) and Hack (Monospace). 
 
