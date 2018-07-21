@@ -8,7 +8,7 @@ fi
 export PS1="\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ "
 
 # aliases - applications
-alias yay='sudo dnf install'
+alias yay='sudo dnf'
 alias nay='sudo dnf remove'
 alias sf='screenfetch'
 alias sfm="sf -n -d '-host;-uptime;-kernel;-shell;-cpu;-gpu;-mem'"
