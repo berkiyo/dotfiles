@@ -1,5 +1,5 @@
 # dotfiles
-
+![](https://raw.githubusercontent.com/digiberk/dotfiles/master/screenshot.png)
 
 ## BASH, ZSH and Vim
 * If you want to use any of my files, put the `.vimrc`, `.bashrc` and `.zshrc` files in your home folder. 
