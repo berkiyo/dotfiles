@@ -1,5 +1,6 @@
 # dotfiles
 
+
 ## BASH, ZSH and Vim
 * If you want to use any of my files, put the `.vimrc`, `.bashrc` and `.zshrc` files in your home folder. 
 * For the weechat files, put them in `~/.weechat`. Please make a backup before replacing the existing files.
