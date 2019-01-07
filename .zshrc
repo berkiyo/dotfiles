@@ -36,7 +36,7 @@ ZSH_THEME="robbyrussell"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # COMPLETION_WAITING_DOTS="true"
@@ -74,8 +74,10 @@ alias sf='screenfetch'
 alias sfm="sf -n -d '-host;-uptime;-kernel;-shell;-cpu;-gpu;-mem'"
 alias mp3='/usr/bin/mp3dl.sh'
 alias h='htop'
-alias rf='source ~/.zshrc'
+alias rf='source ~/.bashrc'
 alias temps='sensors | grep Core'
 alias dc='cd ..'
 alias netlog='sudo netstat -natupc'
+alias freq='cat /proc/cpuinfo | grep "MHz"'
+
 
