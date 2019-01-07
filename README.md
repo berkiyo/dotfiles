@@ -18,8 +18,8 @@ You may notice that I only have one window toggle, that is because I mainly use 
 
 I've also bound my caps-lock key to escape using the GNOME Tweaks app.
 
-## BASH, ZSH and Vim
-* If you want to use any of my files, put the `.vimrc`, `.bashrc` and `.zshrc` files in your home folder. 
+## BASH and Vim
+* If you want to use any of my files, put the `.vimrc` and `.bashrc` files in your home folder. 
 * For the weechat files, put them in `~/.weechat`. Please make a backup before replacing the existing files.
 
 ## About weechat.conf
