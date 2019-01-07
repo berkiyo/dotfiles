@@ -22,8 +22,16 @@ I've also bound my caps-lock key to escape using the GNOME Tweaks app.
 * If you want to use any of my files, put the `.vimrc`, `.bashrc` and `.zshrc` files in your home folder. 
 * For the weechat files, put them in `~/.weechat`. Please make a backup before replacing the existing files.
 
-## about weechat.conf
+## About weechat.conf
 Depending on your distribution, the `weechat.conf` file may not allow you to connect to your desired IRC network due to a certificate problem. To overcome this, you need to identify where they are located and replace line 232 `gnutls_ca_file = "/etc/pki/tls/certs/ca-bundle.crt"` with the correct path. This `weechat.conf` file is known to work with Fedora however some distributions may use a path like `/etc/ssl/certs/ca-certificates.crt`.
 
 ## What is gtk.css?
 This file modifies the padding found in GNOME terminal by 10 pixels. Place this in your `~/.config/gtk-3.0/` directory if you want to use it. 
+
+## A tip for when using Git
+When people use git for the first time, they realise that it keeps asking you to enter your credentials when pushing to a remote repository. To fix this, open up the file `.gitconfig` which should be in your home directory. Next, paste the following:
+```
+[credential]
+	helper = cache --timeout=3600
+```
+This will remember your credentials for 1 hour so you don't have to constantly enter your username and password. You can change this value to whatever you want but keep in mind that it is seconds.
