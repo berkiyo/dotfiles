@@ -8,7 +8,6 @@ fi
 # prompt customisation
 export PS1="\[\e[32m\]➜ \[\e[m\] \[\e[34m\]\w\[\e[m\] "
 
-
 # aliases
 alias rf='source ~/.bashrc'
 alias dc='cd ..'
