@@ -29,3 +29,4 @@ set number
 set comments=sl:/*,mb:\ *,elx:\ */
 set numberwidth=4
 set cursorline
+highlight LineNr ctermfg=white ctermbg=black
