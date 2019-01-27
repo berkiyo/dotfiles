@@ -14,4 +14,8 @@ alias dc='cd ..'
 alias temps='sensors | grep Core'
 alias freq='cat /proc/cpuinfo | grep "MHz"'
 
+# default text editor
+export EDITOR="vim"
+
+
 . /etc/profile.d/vte.sh
