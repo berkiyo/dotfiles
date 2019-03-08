@@ -17,5 +17,7 @@ alias freq='cat /proc/cpuinfo | grep "MHz"'
 # default text editor
 export EDITOR="vim"
 
+# git aliases
+alias gitlog='git log --all --graph --decorate --source --oneline'
 
 . /etc/profile.d/vte.sh
