@@ -25,4 +25,5 @@ export EDITOR="vim"
 # git aliases
 alias gitlog='git log --all --graph --decorate --source --oneline'
 
+
 . /etc/profile.d/vte.sh
