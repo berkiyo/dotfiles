@@ -12,10 +12,8 @@ set noexpandtab
 set smartindent
 set autoindent
 
-" Pathogen and plugins (loads Pathogen, Airline and Nerdtree)
+" Pathogen and plugins (loads Pathogen and Airline)
 execute pathogen#infect()
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 " Set UTF-8 encoding
 set enc=utf-8
