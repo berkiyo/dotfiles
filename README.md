@@ -3,7 +3,7 @@
 
 ## Extensions, Themes, Tweaks, etc
 
-After hunting around for a nice Adwaita replacement, I have settled on [Adementary](https://github.com/hrdwrrsk/adementary-theme). For the icons, I am currently using [La Capitaine](https://github.com/keeferrourke/la-capitaine-icon-theme).
+After hunting around for a nice Adwaita replacement, I have settled on [Adementary](https://github.com/hrdwrrsk/adementary-theme). For the icons, I am currently using [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme).
 
 As for extensions, I only use three at the moment.
 
@@ -11,7 +11,7 @@ As for extensions, I only use three at the moment.
 * Dash to Dock
 * Workspace Indicator
 * Sound Input & Output Device Chooser
-* Panel OSD
+* GTK Title Bar 
 
 You may notice that I only have one window toggle, that is because I mainly use keyboard shortcuts to close, maximise and minimise my windows. If I ever want to use the titlebar, I use middle-click to minimise and double-click to maximise.
 
