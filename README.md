@@ -1,4 +1,5 @@
 # dotfiles
+
 ![Alt text](https://raw.githubusercontent.com/digiberk/dotfiles/master/screenshot.png)
 
 ## Extensions, Themes, Tweaks, etc
@@ -12,6 +13,9 @@ As for extensions, I only use three at the moment.
 * Workspace Indicator
 * Sound Input & Output Device Chooser
 * GTK Title Bar 
+* Openweather
+* Topicons Plus
+* Autohide battery
 
 You may notice that I only have one window toggle, that is because I mainly use keyboard shortcuts to close, maximise and minimise my windows. If I ever want to use the titlebar, I use middle-click to minimise and double-click to maximise.
 
