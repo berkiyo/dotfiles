@@ -5,6 +5,6 @@ Place this in your `~/.config/gtk-3.0/` directory if you want to use it.
 VteTerminal,
 TerminalScreen,
 vte-terminal {
-    padding: 10px 10px 10px 10px;
-    -VteTerminal-inner-border: 10px 10px 10px 10px;
+    padding: 10px;
+    -VteTerminal-inner-border: 10px;
 }
