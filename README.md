@@ -4,11 +4,12 @@
 
 ## Extensions, Themes, Tweaks, etc
 
-After hunting around for a nice Adwaita replacement, I have settled on [Adementary](https://github.com/hrdwrrsk/adementary-theme). For the icons, I am currently using [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme).
+After hunting around for a nice Adwaita replacement, I have settled on [Adementary](https://github.com/hrdwrrsk/adementary-theme). For the icons, I am currently using [Numix Circle](https://github.com/numixproject/numix-icon-theme-circle).
 
 As for extensions, I only use three at the moment.
 
 * User Themes
+* Applications menu
 * Dash to Dock
 * Workspace Indicator
 * Sound Input & Output Device Chooser
@@ -17,9 +18,9 @@ As for extensions, I only use three at the moment.
 * Topicons Plus
 * Autohide battery
 
-You may notice that I only have one window toggle, that is because I mainly use keyboard shortcuts to close, maximise and minimise my windows. If I ever want to use the titlebar, I use middle-click to minimise and double-click to maximise.
-
 I've also bound my caps-lock key to escape using the GNOME Tweaks app.
+
+[Link to the wallpaper.](https://www.reddit.com/r/itookapicture/comments/ca13gb/itap_of_an_airplane/?utm_source=share&utm_medium=web2x) 
 
 ## BASH and Vim
 
@@ -34,3 +35,7 @@ Depending on your distribution, the `weechat.conf` file may not allow you to con
 ## What is gtk.css?
 
 This file modifies the padding found in GNOME terminal by 10 pixels. Place this in your `~/.config/gtk-3.0/` directory if you want to use it.
+
+## Hints to my workflow!
+
+You may notice that I only have one window toggle, that is because I mainly use keyboard shortcuts to close, maximise and minimise my windows. If I ever want to use the titlebar, I use middle-click to minimise and double-click to maximise.
