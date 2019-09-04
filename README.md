@@ -9,18 +9,15 @@ After hunting around for a nice Adwaita replacement, I have settled on [Adementa
 As for extensions, I only use three at the moment.
 
 * User Themes
-* Applications menu
-* Dash to Dock
-* Workspace Indicator
+* Dash to Panel
+* Clipboard Indicator
 * Sound Input & Output Device Chooser
-* GTK Title Bar 
-* Openweather
 * Topicons Plus
 * Autohide battery
 
 I've also bound my caps-lock key to escape using the GNOME Tweaks app.
 
-[Link to the wallpaper.](https://www.reddit.com/r/itookapicture/comments/ca13gb/itap_of_an_airplane/?utm_source=share&utm_medium=web2x) 
+[Link to the wallpaper.](https://unsplash.com/photos/cuTk59eNHUE) 
 
 ## BASH and Vim
 
