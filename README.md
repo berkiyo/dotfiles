@@ -1,6 +1,6 @@
 # dotfiles
 
-![Alt text](https://raw.githubusercontent.com/digiberk/dotfiles/master/screenshot.jpg)
+![Alt text](https://raw.githubusercontent.com/digiberk/dotfiles/master/screenshot.png)
 
 ## Extensions, Themes, Tweaks, etc
 
