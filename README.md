@@ -15,7 +15,7 @@ As for extensions, I only use three at the moment.
 
 I've also bound my caps-lock key to escape using the GNOME Tweaks app.
 
-[Link to the wallpaper.](https://unsplash.com/photos/mK7NXuEFBuU) 
+[Wallpaper](https://unsplash.com/photos/mK7NXuEFBuU) 
 
 ## BASH and Vim
 
