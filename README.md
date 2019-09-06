@@ -4,16 +4,14 @@
 
 ## Extensions, Themes, Tweaks, etc
 
-After hunting around for a nice Adwaita replacement, I have settled on [Adementary](https://github.com/hrdwrrsk/adementary-theme). For the icons, I am currently using [Numix Circle](https://github.com/numixproject/numix-icon-theme-circle).
+After trying out dozens of themes, I finally embraced Adwaita. As for my shell theme, I'm using the dark variant of [Adementary](https://github.com/hrdwrrsk/adementary-theme). For the icons, I am currently using [Paprius](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme).
 
 As for extensions, I only use three at the moment.
 
 * User Themes
 * Dash to Panel
-* Clipboard Indicator
 * Sound Input & Output Device Chooser
 * Topicons Plus
-* Autohide battery
 
 I've also bound my caps-lock key to escape using the GNOME Tweaks app.
 
@@ -22,12 +20,6 @@ I've also bound my caps-lock key to escape using the GNOME Tweaks app.
 ## BASH and Vim
 
 * To use `.vimrc` and `.bashrc` files, place them in your home folder.
-
-## About weechat.conf
-
-* For the weechat files, put them in `~/.weechat`. Please make a backup before replacing the existing files.
-
-Depending on your distribution, the `weechat.conf` file may not allow you to connect to your desired IRC network due to a certificate problem. To overcome this, you need to identify where they are located and replace line 232 `gnutls_ca_file = "/etc/pki/tls/certs/ca-bundle.crt"` with the correct path. This `weechat.conf` file is known to work with Fedora however some distributions may use a path like `/etc/ssl/certs/ca-certificates.crt`.
 
 ## What is gtk.css?
 
