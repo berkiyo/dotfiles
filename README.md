@@ -1,17 +1,16 @@
 # dotfiles
 
-![Alt text](https://raw.githubusercontent.com/digiberk/dotfiles/master/screenshot.jpg)
+![Alt text](https://raw.githubusercontent.com/digiberk/dotfiles/master/screenshot.png)
 
 ## Extensions, Themes, Tweaks, etc
 
-After trying out dozens of themes, I finally embraced Adwaita. As for my shell theme, I'm using the dark variant of [Adementary](https://github.com/hrdwrrsk/adementary-theme). For the icons, I am currently using [Paprius](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme).
+After trying out dozens of themes, I finally embraced Adwaita. As for my shell theme, I'm using the dark variant of [Arc](https://github.com/arc-design/arc-theme). For the icons, I am currently using [Paprius](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme).
 
 As for extensions, I only use three at the moment.
 
-* User Themes
 * Dash to Panel
+* User Themes
 * Sound Input & Output Device Chooser
-* Topicons Plus
 
 I've also bound my caps-lock key to escape using the GNOME Tweaks app.
 
