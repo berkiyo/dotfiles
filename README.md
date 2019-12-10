@@ -3,8 +3,7 @@
 ![Alt text](https://raw.githubusercontent.com/digiberk/dotfiles/master/screenshot.png)
 
 ## Extensions, Themes, Tweaks, etc
-
-After trying out dozens of themes, I finally embraced Adwaita. As for my shell theme, I'm using the dark variant of [Arc](https://github.com/arc-design/arc-theme). For the icons, I am currently using [Paprius](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme).
+For themes, I switch between Adwaita and [Arc](https://github.com/arc-design/arc-theme). For the icons, I am currently using [Paprius](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme).
 
 As for extensions, I only use three at the moment.
 
@@ -24,6 +23,5 @@ I've also bound my caps-lock key to escape using the GNOME Tweaks app.
 
 This file modifies the padding found in GNOME terminal by 10 pixels. Place this in your `~/.config/gtk-3.0/` directory if you want to use it.
 
-## Hints to my workflow!
-
-You may notice that I only have one window toggle, that is because I mainly use keyboard shortcuts to close, maximise and minimise my windows. If I ever want to use the titlebar, I use middle-click to minimise and double-click to maximise.
+# weechat
+Simply replace your existing `weechat.conf` and `buflist.conf` files with the ones I've provided. If you're running a Debian/Ubuntu based system, you may run into a certificate error. I'll provide a solution to that soon.
