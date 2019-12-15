@@ -16,7 +16,7 @@ fi
 export PATH
 
 # fancy bash prompt customisation
-export PS1="\[\e[32m\]λ\[\e[m\] \[\e[34m\]\w\[\e[m\] "
+export PS1="\[\e[32m\]➜ \[\e[m\] \[\e[34m\]\w\[\e[m\] "
 
 # aliases
 alias dc="cd .."

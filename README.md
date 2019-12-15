@@ -1,23 +1,18 @@
 # dotfiles
 
-![Alt text](https://raw.githubusercontent.com/digiberk/dotfiles/master/screenshot.png)
+![Style #1](https://raw.githubusercontent.com/digiberk/dotfiles/master/screenshot.png)
 
 ## Extensions, Themes, Tweaks, etc
-For themes, I switch between Adwaita and [Arc](https://github.com/arc-design/arc-theme). For the icons, I am currently using [Paprius](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme).
+For themes, I switch between Adwaita, [Arc](https://github.com/arc-design/arc-theme) and [Adementary](https://github.com/hrdwrrsk/adementary-theme). For the icons, I am currently using [Paprius](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme).
 
 As for extensions, I only use three at the moment.
 
-* Dash to Panel
+* Dash to Panel / Dash to Dock ("Top Panel Scroll" also)
 * User Themes
 * Sound Input & Output Device Chooser
 
-I've also bound my caps-lock key to escape using the GNOME Tweaks app.
-
 [Wallpaper](https://unsplash.com/photos/mK7NXuEFBuU) 
 
-## BASH and Vim
-
-* To use `.vimrc` and `.bashrc` files, place them in your home folder.
 
 ## What is gtk.css?
 
