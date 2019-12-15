@@ -12,8 +12,6 @@ As for extensions, I only use three at the moment.
 * User Themes
 * Sound Input & Output Device Chooser
 
-[Wallpaper](https://unsplash.com/photos/mK7NXuEFBuU) 
-
 
 ## What is gtk.css?
 
