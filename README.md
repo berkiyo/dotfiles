@@ -1,7 +1,8 @@
 # dotfiles
 
-![Style #1](https://raw.githubusercontent.com/digiberk/dotfiles/master/screenshot.png)
+![Style #1](https://raw.githubusercontent.com/digiberk/dotfiles/master/screenshot.png)*Style #1*
 
+![Style #2](https://raw.githubusercontent.com/digiberk/dotfiles/master/screenshot-alternate.png)*Style #2*
 ## Extensions, Themes, Tweaks, etc
 For themes, I switch between Adwaita, [Arc](https://github.com/arc-design/arc-theme) and [Adementary](https://github.com/hrdwrrsk/adementary-theme). For the icons, I am currently using [Paprius](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme).
 
