@@ -1,7 +1,5 @@
-/*
-This modifies increases the padding by 10 pixels in GNOME terminal.
-Place this in your `~/.config/gtk-3.0/` directory if you want to use it.
-*/
+/* gtk.css */
+
 VteTerminal,
 TerminalScreen,
 vte-terminal {

@@ -12,7 +12,6 @@ As for extensions, I only use three at the moment.
 * User Themes
 * Sound Input & Output Device Chooser
 
-
 ## What is gtk.css?
 
 This file modifies the padding found in GNOME terminal by 10 pixels. Place this in your `~/.config/gtk-3.0/` directory if you want to use it.
