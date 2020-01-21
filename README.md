@@ -1,21 +1,16 @@
 # dotfiles
 
-![Obligatory Screenshot](https://raw.githubusercontent.com/digiberk/dotfiles/master/screenshot.png)*Obligatory
+![Obligatory Screenshot](https://raw.githubusercontent.com/digiberk/dotfiles/master/screenshot-cinnamon.png)*Obligatory
 Screenshot*
 
-## Extensions, Themes, Tweaks, etc
-For themes, I switch between Adwaita, [Arc](https://github.com/arc-design/arc-theme) and [Adementary](https://github.com/hrdwrrsk/adementary-theme). For the icons, I am currently using Arc and Marwaita.
-
-As for extensions, I only use three at the moment.
-
-* Dash to Panel
-* Sound Input & Output Device Chooser
+## Themes
+I use Mint Y dark/darker colours for my GTK/Shell theme and Papirus for icons.
 
 ## gtk.css?
 This file modifies the padding found in GNOME terminal by 10 pixels. Place this in your `~/.config/gtk-3.0/` directory if you want to use it.
 
 ## Arc One
-A custom GTK3 theme based on Arc-darker with a slightly darker blue and no transparency. It was created using Oomox.
+A custom GTK3 theme based on Arc-darker with a slightly darker blue and no transparency. It was created using Oomox. I used to use it with GNOME but I much prefer the Mint Y themes
 
 # ufetch
 Displays system info in a fancy way with some customisations. Original one can be found [here.](https://gitlab.com/jschx/ufetch/)
