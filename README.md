@@ -1,6 +1,6 @@
 # dotfiles
 
-![Obligatory Screenshot](https://raw.githubusercontent.com/digiberk/dotfiles/master/screenshot-cinnamon.png)*Obligatory
+![Obligatory Screenshot](https://raw.githubusercontent.com/digiberk/dotfiles/master/screenshot.png)*Obligatory
 Screenshot*
 
 ## Themes
