@@ -1,6 +1,6 @@
 # dotfiles
 
-![Obligatory Screenshot](https://raw.githubusercontent.com/digiberk/dotfiles/master/screenshot-new.png)*Obligatory Screenshot*
+![Obligatory Screenshot](https://raw.githubusercontent.com/digiberk/dotfiles/master/screenshot.png)*Obligatory Screenshot*
 
 ## Themes
 I use "Plum" for my GTK theme, "Arc Darkest Plum" for GNOME and "Paper + Papirus" for icons.
