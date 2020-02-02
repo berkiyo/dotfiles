@@ -14,11 +14,10 @@ then
 fi
 export PATH
 
-bind 'TAB:menu-complete'
-
 # # # # # # # # # # # # # # 
 # B A S H    P R O M P T  #
 # # # # # # # # # # # # # # 
+# get current branch in git repo
 # get current branch in git repo
 function parse_git_branch() {
 	BRANCH=`git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'`
@@ -66,8 +65,7 @@ function parse_git_dirty {
 	fi
 }
 
-export PS1="\[\e[34m\]\w\[\e[m\]\`parse_git_branch\` "
-
+export PS1="\[\e[34m\]\w\[\e[m\]\`parse_git_branch\` \[\e[31m\]>\[\e[m\]\[\e[33m\]>\[\e[m\]\[\e[36m\]>\[\e[m\] "
 
 
 # # # # # # # # # 
