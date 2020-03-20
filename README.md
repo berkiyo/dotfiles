@@ -1,9 +1,13 @@
 # dotfiles
 
-![Obligatory Screenshot](https://raw.githubusercontent.com/digiberk/dotfiles/master/screen.png)*Obligatory Screenshot*
+![Obligatory Screenshot](https://raw.githubusercontent.com/digiberk/dotfiles/master/screeny.png)*Obligatory Screenshot*
 
 ## eyecandy
-I use Orchis/Adementary for my GTK theme and Boston + Papirus for my icons. The font is Product Sans.
+* Plum GTK Theme
+* Plata-Noir Shell Theme
+* Boston + Papirus Icons
+* Bibata Ice Cursors
+* Product Sans Fonts
 
 ## gtk.css?
 This file modifies the padding found in GNOME terminal by 10 pixels. Place this in your `~/.config/gtk-3.0/` directory if you want to use it.
