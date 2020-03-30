@@ -1,9 +1,9 @@
 # dotfiles
 
-![Obligatory Screenshot](https://raw.githubusercontent.com/digiberk/dotfiles/master/screeny.png)*Obligatory Screenshot*
+![Obligatory Screenshot](https://raw.githubusercontent.com/digiberk/dotfiles/master/flex.png)*Obligatory Screenshot*
 
 ## eyecandy
-* Plum GTK Theme
+* Azure GTK Theme
 * Plata-Noir Shell Theme
 * Boston + Papirus Icons
 * Bibata Ice Cursors
