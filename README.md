@@ -1,6 +1,6 @@
 # dotfiles
 
-![Obligatory Screenshot](https://raw.githubusercontent.com/digiberk/dotfiles/master/flex.png)*Obligatory Screenshot*
+![Obligatory Screenshot](https://raw.githubusercontent.com/digiberk/dotfiles/master/oof.png)*Obligatory Screenshot*
 
 ## eyecandy
 * Azure GTK Theme
