@@ -1,6 +1,6 @@
 # dotfiles
 
-![Obligatory Screenshot](https://raw.githubusercontent.com/digiberk/dotfiles/master/nice.png)*Obligatory Screenshot*
+![Obligatory Screenshot](https://raw.githubusercontent.com/berkiyo/dotfiles/master/nice.png)*Obligatory Screenshot*
 
 ## eyecandy
 * Akwa GTK Theme
