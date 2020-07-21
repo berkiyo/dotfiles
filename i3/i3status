@@ -1,0 +1,61 @@
+general {
+        output_format = "i3bar"
+        colors = true
+		markup = "pango"
+        interval = 5
+}
+
+order += "disk /home"
+order += "disk /"
+order += "battery 0"
+order += "memory"
+order += "load"
+order += "volume master"
+order += "tztime local"
+
+
+battery 0 {
+        format = " <span color='#aaaaaa'>battery</span>  %percentage %remaining %emptytime "
+        format_down = "No battery"
+        status_chr = "⚡ CHR"
+        status_bat = "🔋 BAT"
+        status_unk = "? UNK"
+        status_full = "☻ FULL"
+        path = "/sys/class/power_supply/BAT%d/uevent"
+        low_threshold = 10
+}
+
+tztime local {
+        format = " %Y-%m-%d  %H:%M "
+		 
+}
+
+volume master {
+        format = " <span color='#aaaaaa'>vol</span>  %volume "
+        format_muted = " <span color='#aaaaaa'>vol (muted)</span> %volume "
+        device = "default"
+        mixer = "Master"
+        mixer_idx = 0
+}
+
+load {
+        format = " <span color='#aaaaaa'>load</span>  %5min "
+}
+
+memory {
+        format = " <span color='#aaaaaa'>ram</span>  %used "
+        threshold_degraded = "10%"
+        format_degraded = "MEMORY: %free"
+}
+
+disk "/home" {
+        format = " <span color='#aaaaaa'>home</span>  %free "
+}
+
+disk "/" {
+	format = " <span color='#aaaaaa'>root</span>  %free "
+}
+
+read_file uptime {
+        path = "/proc/uptime"
+}
