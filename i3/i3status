@@ -6,7 +6,7 @@ general {
 }
 
 order += "disk /home"
-order += "disk /"
+#order += "disk /"
 order += "battery 0"
 order += "memory"
 order += "load"
@@ -15,7 +15,7 @@ order += "tztime local"
 
 
 battery 0 {
-        format = " <span color='#aaaaaa'>battery</span>  %percentage %remaining %emptytime "
+        format = " <span color='#aaaaaa'>battery</span>  %percentage  %remaining "
         format_down = "No battery"
         status_chr = "⚡ CHR"
         status_bat = "🔋 BAT"

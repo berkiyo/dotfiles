@@ -10,7 +10,7 @@ os='Fedora Linux'	# I'd just like to interject for a moment...
 kernel="$(uname -sr)"
 uptime="$(uptime | awk -F, '{sub(".*up ",x,$1);print $1}' | sed -e 's/^[ \t]*//')"
 packages="$(dnf list installed | wc -l)"
-shell="zsh"
+shell="bash"
 
 ## UI DETECTION
 

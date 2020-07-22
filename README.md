@@ -1,17 +1,18 @@
 # dotfiles
 
-![Obligatory Screenshot](https://raw.githubusercontent.com/berkiyo/dotfiles/master/nice.png)*Obligatory Screenshot*
+![1](https://raw.githubusercontent.com/berkiyo/dotfiles/master/screenshots/i3.png)*1*
+
+![2](https://raw.githubusercontent.com/berkiyo/dotfiles/master/screenshots/nice.png)*2*
+
 
 ## eyecandy
 
-* Akwa GTK Theme
+* Arcwaita GTK Theme
 * Papirus Icons
 * Fira Sans & Mono for Fonts
 
 ## msdos
-
-Yes, I use MS DOS, 10... 😉 
+Powershell profile and other stuff for Windows
 
 ## ufetch
-
 Displays system info in a fancy way with some customisations. Original one can be found [here.](https://gitlab.com/jschx/ufetch/)
