@@ -11,4 +11,5 @@
 * Fira Sans & Mono for Fonts
 
 ## ufetch
+
 Displays system info in a fancy way with some customisations. Original one can be found [here.](https://gitlab.com/jschx/ufetch/)
