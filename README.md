@@ -1,12 +1,11 @@
 # dotfiles
 
-![1](https://raw.githubusercontent.com/berkiyo/dotfiles/master/screenshots/gnome.png)*1*
+![1](https://raw.githubusercontent.com/berkiyo/dotfiles/master/screenshots/nice.png)*1*
 
-![2](https://raw.githubusercontent.com/berkiyo/dotfiles/master/screenshots/i3.png)*2*
 
 ## eyecandy
 
-* Arcwaita GTK Theme
+* Akwa GTK Theme
 * Papirus Icons
 * Fira Sans & Mono for Fonts
 
