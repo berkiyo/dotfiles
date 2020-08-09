@@ -12,9 +12,6 @@ set noexpandtab
 set smartindent
 set autoindent
 
-" Pathogen and plugins (loads Pathogen and Airline)
-execute pathogen#infect()
-
 " Set UTF-8 encoding
 set enc=utf-8
 set fenc=utf-8
