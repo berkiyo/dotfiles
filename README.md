@@ -1,7 +1,6 @@
-# dotfiles
+#dotfiles
 
 ![1](https://raw.githubusercontent.com/berkiyo/dotfiles/master/screenshots/nice.png)*1*
-
 
 ## eyecandy
 
