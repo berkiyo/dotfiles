@@ -2,7 +2,6 @@
 #
 # ufetch-linux - tiny system info for linux
 
-## INFO
 
 # user is already defined
 host="$(hostname)"
