@@ -1,7 +1,7 @@
 #!/bin/sh
 #
 # ufetch-linux - tiny system info for linux
-
+# modified for me ;)
 
 # user is already defined
 host="$(hostname)"
