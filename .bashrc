@@ -85,5 +85,5 @@ alias freq='cat /proc/cpuinfo | grep "MHz"'
 # aliases - programs and directories
 alias pro="cd ~/Projects/"
 alias gitlog="git log --all --graph decorate --source --oneline"
-alias mp3="youtube-dl --extract-audio --audio-format mp3"
-alias i3c="vim ~/.config/i3/config" 
+alias mp3="youtube-dl --extract-audio --audio-format mp3" 
+# alias i3c="vim ~/.config/i3/config" 
