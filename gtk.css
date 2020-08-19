@@ -1,3 +1,6 @@
+/* gtk.css
+ * add padding to terminal */
+
 VteTerminal,
 TerminalScreen,
 vte-terminal {
