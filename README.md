@@ -1,8 +1,8 @@
-#dotfiles
+# dotfiles
 
 ![cool](https://raw.githubusercontent.com/berkiyo/dotfiles/master/screenshots/cool.png)*1*
 
-## eyecandy
+# eyecandy
 
 * Akwa GTK theme
 * Papirus Icons
