@@ -1,6 +1,6 @@
 # dotfiles
 
-![cool](https://raw.githubusercontent.com/berkiyo/dotfiles/master/screenshots/cool.png)*1*
+![cool](https://raw.githubusercontent.com/berkiyo/dotfiles/master/screenshots/cool.png)
 
 # eyecandy
 
