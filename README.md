@@ -1,9 +1,9 @@
 # dotfiles
 
-![cool](https://raw.githubusercontent.com/berkiyo/dotfiles/master/screenshots/cool.png)
+![cool](https://raw.githubusercontent.com/berkiyo/dotfiles/master/screenshots/nice.png)
 
 # eyecandy
 
-* Akwa GTK theme
-* Papirus Icons
-* Fira Sans & IBM Plex Mono for fonts
+* ***Theme:*** Arc
+* ***Icons:*** Papirus
+* ***Fonts:*** Rubik Regular & IBM Plex Mono
