@@ -4,6 +4,7 @@
 
 # eyecandy
 
-* ***Theme:*** Arc
+* ***Theme:*** Plata
 * ***Icons:*** Papirus
-* ***Fonts:*** Rubik Regular & IBM Plex Mono
+* ***Fonts:*** UI = Roboto // Mono = Source Code Pro
+* ***Wallpaper:*** Coming soon...
