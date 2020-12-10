@@ -1,10 +1,9 @@
 # dotfiles
 
-![cool](https://raw.githubusercontent.com/berkiyo/dotfiles/master/screenshots/nice.png)
+![cool](https://raw.githubusercontent.com/berkiyo/dotfiles/master/screenshots/adwaita.png)
 
 # eyecandy
 
-* ***Theme:*** Plata
+* ***Theme:*** Adwaita
 * ***Icons:*** Papirus
-* ***Fonts:*** UI = Roboto // Mono = Source Code Pro
-* ***Wallpaper:*** Coming soon...
+* ***Fonts:*** Fira
