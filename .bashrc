@@ -18,7 +18,6 @@ export PATH
 # B A S H    P R O M P T  #
 # # # # # # # # # # # # # # 
 # get current branch in git repo
-# get current branch in git repo
 function parse_git_branch() {
 	BRANCH=`git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'`
 	if [ ! "${BRANCH}" == "" ]
@@ -65,7 +64,7 @@ function parse_git_dirty {
 	fi
 }
 
-export PS1="\[\e[34m\]\w\[\e[m\]\`parse_git_branch\` \[\e[31m\]>\[\e[m\]\[\e[33m\]>\[\e[m\]\[\e[36m\]>\[\e[m\] "
+export PS1="\u\[\e[35m\]@\[\e[m\]\h \[\e[34m\]\w\[\e[m\]\`parse_git_branch\` \[\e[31m\]>\[\e[m\]\[\e[33m\]>\[\e[m\]\[\e[32m\]>\[\e[m\] "
 
 
 # # # # # # # # # 
