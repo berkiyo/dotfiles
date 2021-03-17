@@ -1,9 +1,9 @@
 # dotfiles
 
-![cool](https://raw.githubusercontent.com/berkiyo/dotfiles/master/screenshots/adwaita.png)
+![cool](https://raw.githubusercontent.com/berkiyo/dotfiles/master/screenshots/setup.png)
 
 # eyecandy
 
 * ***Theme:*** Adwaita
 * ***Icons:*** Papirus
-* ***Fonts:*** Fira
+* ***Fonts:*** Lato

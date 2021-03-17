@@ -4,6 +4,6 @@
 VteTerminal,
 TerminalScreen,
 vte-terminal {
-    padding: 7px;
-    -VteTerminal-inner-border: 7px;
+    padding: 10px;
+    -VteTerminal-inner-border: 10px;
 }
