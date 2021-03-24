@@ -1,9 +1,5 @@
 # dotfiles
 
-![cool](https://raw.githubusercontent.com/berkiyo/dotfiles/master/screenshots/setup.png)
+![cool](https://raw.githubusercontent.com/berkiyo/dotfiles/master/screenshots/windows.png)
 
-# eyecandy
-
-* ***Theme:*** Adwaita
-* ***Icons:*** Papirus
-* ***Fonts:*** Lato
+![linux](https://raw.githubusercontent.com/berkiyo/dotfiles/master/screenshots/setup.png)

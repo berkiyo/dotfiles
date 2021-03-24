@@ -29,9 +29,8 @@
         {
             "fontFace": "Cascadia Code PL",
             "useAcrylic": true,
-            "acrylicOpacity": 0.55,
-            "colorScheme": "One Half Dark",
-            "background" : "#212121"
+            "acrylicOpacity": 0.8,
+            "background": "#001733"
 
         },
         "list":
