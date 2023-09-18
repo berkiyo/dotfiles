@@ -1,6 +1,12 @@
 # dotfiles
 
-Welcome to my dotfiles repository, much has changed here. :]
+Collection of various configuration files, mostly for "vim" and "zh
+
+## macOS
+
+## Linux
+
+## Windows
 
 ![linux](https://raw.githubusercontent.com/berkiyo/dotfiles/master/screenshots/windows.png)
 
