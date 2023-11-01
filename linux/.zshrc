@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="avit"
+ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -99,3 +99,22 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+# # # # # # # # # 
+# A L I A S E S #
+# # # # # # # # #
+alias dc="cd .."
+alias lla="ls -al"
+alias yay="sudo dnf"
+alias rf="source ~/.bashrc"
+alias bashconfig="vim ~/.bashrc"
+alias gpo="git push origin"
+
+# aliases - sysinfo
+alias temps="sensors | grep Core"
+alias freq='cat /proc/cpuinfo | grep "MHz"'
+
+# aliases - programs and directories
+alias pro="cd ~/Projects/"
+alias gitlog="git log --all --graph decorate --source --oneline"
+alias mp3="youtube-dl --extract-audio --audio-format mp3" 
+# alias i3c="vim ~/.config/i3/config" 

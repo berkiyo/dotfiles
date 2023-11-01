@@ -75,7 +75,7 @@ alias lla="ls -al"
 alias yay="sudo dnf"
 alias rf="source ~/.bashrc"
 alias bashconfig="vim ~/.bashrc"
-alias gpom="git push origin master"
+alias gpo="git push origin"
 
 # aliases - sysinfo
 alias temps="sensors | grep Core"
