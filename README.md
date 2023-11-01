@@ -3,7 +3,7 @@
 Collection of various configuration files.
 
 ## Linux Setup
-I daily drive Fedora with GNOME Desktop with the following configuration:
+Running Fedora + GNOME.
 
 **Extensions:**
 
