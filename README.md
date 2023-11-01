@@ -23,5 +23,5 @@ I daily drive Fedora with GNOME Desktop with the following configuration:
 * Fira Sans for UI
 * IBM Plex Mono for monospace
 
-## Screenshots
+## Screenshot
 ![Desktop](https://raw.githubusercontent.com/varcharfoobar/dotfiles/master/linux.png)
