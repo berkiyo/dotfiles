@@ -21,7 +21,7 @@ Running Fedora + GNOME.
 * Papirus icons
 * Adwaita cursors
 * Fira Sans for UI
-* IBM Plex Mono for monospace
+* Fira Mono for monospace
 
 ## Screenshot
 ![Desktop](https://raw.githubusercontent.com/varcharfoobar/dotfiles/master/linux.png)
