@@ -12,7 +12,6 @@ Running Fedora + GNOME.
 * Clipboard History
 * Dash to Panel
 * GSConnect
-* Just Perfection
 * Vitals
 
 **Eyecandy:**
@@ -20,8 +19,8 @@ Running Fedora + GNOME.
 * Adwaita + adw-gtk3 for legacy apps
 * Papirus icons
 * Adwaita cursors
-* Fira Sans for UI
-* Fira Mono for monospace
+* Cantarell for UI
+* 0xProto for monospace
 
 ## Screenshot
 ![Desktop](https://raw.githubusercontent.com/varcharfoobar/dotfiles/master/linux.png)
