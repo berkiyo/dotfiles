@@ -3,24 +3,19 @@
 Collection of various configuration files.
 
 ## Linux Setup
-Running Fedora + GNOME.
-
-**Extensions:**
-
-* Blur my Shell
-* Caffeine
-* Clipboard History
-* Dash to Panel
-* GSConnect
-* Vitals
+Running Arch + XFCE
 
 **Eyecandy:**
 
-* Adwaita + adw-gtk3 for legacy apps
-* Papirus icons
-* Adwaita cursors
-* Cantarell for UI
-* 0xProto for monospace
+- Theme: Nashville96 Kanagawa
+- Icons: Papirus Dark
+- Cursor: Retrosmart Xcursor Black
+- Font (UI): Roboto
+- Font (Monospace): JetBrains Mono
+- LightDM: Chicago95
+- Plymouth: arch-logo
+- Bash Prompt: oh-my-bash
+
 
 ## Screenshot
 ![Desktop](https://raw.githubusercontent.com/varcharfoobar/dotfiles/master/linux.png)
