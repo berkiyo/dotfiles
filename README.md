@@ -13,7 +13,7 @@ Collection of various configuration files.
 
 
 ## Screenshot
-![Desktop](https://raw.githubusercontent.com/varcharfoobar/dotfiles/master/windows.png)
+![Desktop](https://raw.githubusercontent.com/berkiyo/dotfiles/master/windows.png)
 
 <!---
 this change was made in github spaces :)
