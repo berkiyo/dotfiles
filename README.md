@@ -2,23 +2,18 @@
 
 Collection of various configuration files.
 
-## Linux Setup
-Running Arch + XFCE
+## Windows Setup
 
 **Eyecandy:**
 
-- Theme: Nashville96 Kanagawa
-- Icons: Papirus Dark
-- Cursor: Retrosmart Xcursor Black
-- Font (UI): Roboto
-- Font (Monospace): JetBrains Mono
-- LightDM: Chicago95
-- Plymouth: arch-logo
-- Bash Prompt: oh-my-bash
+- Shell tweaks: StartAllBack + AltGrab + PowerToys
+- Cursor: Windows Default Black + Shadow
+- Font (Monospace): JetBrains Mono Nerd Font
+- PowerShell Prompt: oh-my-posh
 
 
 ## Screenshot
-![Desktop](https://raw.githubusercontent.com/varcharfoobar/dotfiles/master/linux.png)
+![Desktop](https://raw.githubusercontent.com/varcharfoobar/dotfiles/master/windows.png)
 
 <!---
 this change was made in github spaces :)
