@@ -1,1 +1,0 @@
-oh-my-posh init pwsh --config 'C:\Users\berkw\AppData\Local\Programs\oh-my-posh\themes\material.omp.json' | Invoke-Expression
