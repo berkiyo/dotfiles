@@ -66,3 +66,26 @@ if [ -d ~/.bashrc.d ]; then
     done
 fi
 unset rc
+# --- Auto-start SSH Agent ---
+if [ -z "$SSH_AUTH_SOCK" ]; then
+    # Check for an existing agent session
+    SSH_AGENT_ENV="$HOME/.ssh/agent-env"
+    if [ -f "$SSH_AGENT_ENV" ]; then
+        . "$SSH_AGENT_ENV" > /dev/null
+    fi
+
+    # If no agent is running, start a new one
+    if ! ps -p "$SSH_AGENT_PID" > /dev/null 2>&1; then
+        eval "$(ssh-agent -s)" > /dev/null
+        echo "export SSH_AUTH_SOCK=$SSH_AUTH_SOCK" > "$SSH_AGENT_ENV"
+        echo "export SSH_AGENT_PID=$SSH_AGENT_PID" >> "$SSH_AGENT_ENV"
+    fi
+fi
+
+# Automatically add your default key if it isn't already loaded
+if ssh-add -l > /dev/null 2>&1; then
+    : # Key is already loaded
+else
+    # This will ask for your passphrase ONCE per session restart
+    ssh-add ~/.ssh/id_ed25519 2>/dev/null || ssh-add ~/.ssh/id_rsa 2>/dev/null
+fi
