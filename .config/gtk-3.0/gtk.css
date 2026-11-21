@@ -1,0 +1,19 @@
+/* Remove outer margins on Window Buttons so they touch the screen edge */
+.tasklist button {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* Remove any inner padding/borders on the panel itself */
+.xfce4-panel {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: 0px;
+}
+
+/* Make Whisker Menu button touch the screen edges */
+#whiskermenu-button {
+    margin: 0px;
+    border-width: 0px;
+}
+
