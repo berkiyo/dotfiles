@@ -1,68 +1,130 @@
-# .bashrc
+# ==========================================================
+# Arch Linux / XFCE - Bash Configuration
+# ==========================================================
 
-# Source global definitions
-if [ -f /etc/bashrc ]; then
-    . /etc/bashrc
+# ----------------------------------------------------------
+# System-wide configuration
+# ----------------------------------------------------------
+
+if [[ -f /etc/bash.bashrc ]]; then
+    source /etc/bash.bashrc
 fi
 
-# User specific environment
-if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]; then
-    PATH="$HOME/.local/bin:$HOME/bin:$PATH"
-fi
+# ----------------------------------------------------------
+# User PATH
+# ----------------------------------------------------------
+
+for dir in "$HOME/.local/bin" "$HOME/bin"; do
+    if [[ -d "$dir" && ":$PATH:" != *":$dir:"* ]]; then
+        PATH="$dir:$PATH"
+    fi
+done
+
 export PATH
 
-# Uncomment the following line if you don't like systemctl's auto-paging feature:
-# export SYSTEMD_PAGER=
-# --- Custom Clean Prompt ---
-# Colors
-COLOR_BLUE="\[\033[1;34m\]"
-COLOR_CYAN="\[\033[1;36m\]"
-COLOR_GREEN="\[\033[1;32m\]"
-COLOR_MAGENTA="\[\033[1;35m\]" # Added for Git branch contrast
-COLOR_RESET="\[\033[0m\]"
+# ----------------------------------------------------------
+# Bash behaviour
+# ----------------------------------------------------------
 
-# Git Branch Logic: Safely extracts branch name using standard non-printed sequences
-parse_git_branch() {
-    local branch
-    branch=$(git branch 2>/dev/null | grep '^*' | colrm 1 2)
-    if [ -n "$branch" ]; then
-        # Inside PS1 execution, we use raw octal escapes (\001 and \002) 
-        # to tell Bash these are non-printing characters.
-        echo -e "\001\033[1;34m\002(\001\033[1;35m\002${branch}\001\033[1;34m\002) "
-    fi
+# Enable extended globbing
+shopt -s extglob
+
+# Check window size after each command
+shopt -s checkwinsize
+
+# Append to history instead of overwriting
+shopt -s histappend
+
+# History configuration
+HISTSIZE=10000
+HISTFILESIZE=20000
+HISTCONTROL=ignoreboth:erasedups
+HISTTIMEFORMAT='%F %T '
+
+# ----------------------------------------------------------
+# BASH auto completion
+# ----------------------------------------------------------
+
+if [[ -r /usr/share/bash-completion/bash_completion ]]; then
+    source /usr/share/bash-completion/bash_completion
+fi
+
+# ----------------------------------------------------------
+# Git branch detection & Prompt
+# ----------------------------------------------------------
+
+# Source Arch's official git-prompt script
+if [[ -r /usr/share/git/completion/git-prompt.sh ]]; then
+    source /usr/share/git/completion/git-prompt.sh
+    GIT_PS1_SHOWDIRTYSTATE=1       # Adds * for unstaged, + for staged changes
+    GIT_PS1_SHOWUNTRACKEDFILES=1   # Adds % for untracked files
+fi
+
+__update_prompt_state() {
+    __last_status=$?
+    history -a
 }
 
-# Prompt Logic: Turns prompt symbol red if the last command failed
-PROMPT_STATUS="\$(if [ \$? -eq 0 ]; then echo \"${COLOR_GREEN}»\"; else echo \"\[\033[1;31m\]»\"; fi)"
+PROMPT_COMMAND='__update_prompt_state'
 
-# PS1 Structure: [username@hostname] [directory] (branch) >>
-export PS1="${COLOR_BLUE}[${COLOR_CYAN}\u${COLOR_BLUE}@\h] ${COLOR_BLUE}[${COLOR_RESET}\W${COLOR_BLUE}] \$(parse_git_branch)${PROMPT_STATUS}${COLOR_RESET} "
+# Helper to safely display git branch only if __git_ps1 is loaded
+__safe_git_ps1() {
+    declare -F __git_ps1 >/dev/null && __git_ps1 "(%s) "
+}
 
-# --- Handy Quality-of-Life Aliases ---
-# Better file listing (ordered, colored, human-readable sizes)
+PS1='\[\033[1;34m\][\[\033[1;36m\]\u\[\033[1;34m\]@\h] '
+PS1+='\[\033[1;34m\][\[\033[0m\]\W\[\033[1;34m\]] '
+PS1+='\[\033[1;35m\]$(__safe_git_ps1)\[\033[0m\]'
+PS1+='\[$(if (( __last_status == 0 )); then printf "\033[1;32m"; else printf "\033[1;31m"; fi)\]»'
+PS1+='\[\033[0m\] '
+
+# ----------------------------------------------------------
+# Aliases - File management
+# ----------------------------------------------------------
+
 alias ls='ls --color=auto'
-alias ll='ls -lh'
-alias la='ls -A'
-alias l='ls -CF'
+alias ll='ls -lh --color=auto'
+alias la='ls -A --color=auto'
+alias l='ls -CF --color=auto'
 
-# Safety checks
+# Safety confirmations
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
 
-# Quick navigation & utilities
+# ----------------------------------------------------------
+# Navigation
+# ----------------------------------------------------------
+
 alias ..='cd ..'
 alias ...='cd ../..'
-alias mkdir='mkdir -p'
-alias path='echo -e ${PATH//:/\\n}' # Prints PATH cleanly line-by-line
-alias reload='source ~/.bashrc'     # Quickly apply .bashrc changes
+alias ....='cd ../../..'
 
-# --- Load user specific aliases and functions ---
-if [ -d ~/.bashrc.d ]; then
-    for rc in ~/.bashrc.d/*; do
-        if [ -f "$rc" ]; then
-            . "$rc"
-        fi
+alias mkdir='mkdir -p'
+
+# ----------------------------------------------------------
+# Utilities
+# ----------------------------------------------------------
+
+alias path='printf "%s\n" "${PATH//:/\\n}"'
+alias reload='source ~/.bashrc'
+alias cls='clear'
+
+# ----------------------------------------------------------
+# Arch Linux utilities
+# ----------------------------------------------------------
+
+alias update='sudo pacman -Syu'
+alias cleanup='sudo pacman -Sc'
+
+# ----------------------------------------------------------
+# User-specific aliases and functions
+# ----------------------------------------------------------
+
+if [[ -d "$HOME/.bashrc.d" ]]; then
+    for rc in "$HOME"/.bashrc.d/*.sh; do
+        [[ -f "$rc" ]] && source "$rc"
     done
 fi
+
 unset rc
